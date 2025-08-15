@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "EC1834-Board")(type "KiCad")(uri "${KIPRJMOD}/EC1834-FDC.pretty")(options "")(descr ""))
+)
