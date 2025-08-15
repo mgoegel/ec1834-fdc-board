@@ -19393,6 +19393,32 @@
 		)
 		(uuid "154865fc-b957-4009-be9c-5265a69a013b")
 	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 277.114 149.606 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.8)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "b54da69f-3ae1-456d-8dbc-54d8e50bd434")
+	)
+	(text "X = Fehler im rekonstruierten \nOriginalschaltplan!"
+		(exclude_from_sim no)
+		(at 141.224 323.85 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "edcbf794-06d0-46e2-bc6d-514b3ba4ed6f")
+	)
 	(junction
 		(at 497.84 260.35)
 		(diameter 0)
