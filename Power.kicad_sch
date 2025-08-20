@@ -11,6 +11,137 @@
 		(company "Mario Gögel 2022")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint_2Pole"
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_2Pole"
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2-polar test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_2Pole_0_1"
+				(circle
+					(center -1.778 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.778 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -10928,6 +11059,12 @@
 		(uuid "30c5f9f5-388a-4196-a20a-018d7a91bbc9")
 	)
 	(junction
+		(at 311.15 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "319d289d-4b45-4d0b-8c49-14282c2bcacd")
+	)
+	(junction
 		(at 234.95 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11082,6 +11219,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5176db39-7276-4cee-82d5-c8981b8487fe")
+	)
+	(junction
+		(at 321.31 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5273dce6-ba19-4b1b-b495-de69467bea61")
 	)
 	(junction
 		(at 102.87 111.76)
@@ -11474,6 +11617,12 @@
 		(uuid "abdb87cc-ff92-48f7-849b-f365aa51805c")
 	)
 	(junction
+		(at 321.31 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad16f610-9f48-4c66-923b-f1ce1b87c246")
+	)
+	(junction
 		(at 260.35 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11664,6 +11813,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec472cd6-99dd-4a88-9bcb-ebe13e20f3a9")
+	)
+	(junction
+		(at 311.15 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed0dbfcc-a3e9-408a-a90f-aa8610c9866b")
 	)
 	(junction
 		(at 191.77 77.47)
@@ -11941,6 +12096,26 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 50.8) (xy 325.12 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f247d01-ec7d-4c51-a0b5-e1b7cbf44f60")
+	)
+	(wire
+		(pts
+			(xy 321.31 50.8) (xy 321.31 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f805aa8-c046-4f2e-8faa-d6e3d6171329")
+	)
+	(wire
+		(pts
 			(xy 204.47 43.18) (xy 210.82 43.18)
 		)
 		(stroke
@@ -12148,6 +12323,16 @@
 			(type default)
 		)
 		(uuid "2360ec97-e787-4e32-8e6b-39af21467f89")
+	)
+	(wire
+		(pts
+			(xy 311.15 50.8) (xy 311.15 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d0bb22-2252-4e14-a33a-c91cb58e2e89")
 	)
 	(wire
 		(pts
@@ -12701,6 +12886,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 59.69) (xy 311.15 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56280b69-3b9a-41a6-b749-1093b077ab04")
+	)
+	(wire
+		(pts
 			(xy 226.06 91.44) (xy 226.06 93.98)
 		)
 		(stroke
@@ -12908,6 +13103,16 @@
 			(type default)
 		)
 		(uuid "6d7a3789-b1de-483e-9c47-d53492730bf6")
+	)
+	(wire
+		(pts
+			(xy 321.31 59.69) (xy 321.31 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e685a2a-2bc9-40a2-82e7-1dc8c98aa159")
 	)
 	(wire
 		(pts
@@ -13591,7 +13796,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 50.8) (xy 317.5 50.8)
+			(xy 309.88 50.8) (xy 311.15 50.8)
 		)
 		(stroke
 			(width 0)
@@ -13821,7 +14026,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 50.8) (xy 325.12 50.8)
+			(xy 317.5 50.8) (xy 321.31 50.8)
 		)
 		(stroke
 			(width 0)
@@ -13878,6 +14083,16 @@
 			(type default)
 		)
 		(uuid "d46de620-d0fe-4b16-8749-ab8b8758927f")
+	)
+	(wire
+		(pts
+			(xy 311.15 50.8) (xy 317.5 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d570225a-2ec2-4125-9f1d-8070e97ec20c")
 	)
 	(wire
 		(pts
@@ -18819,6 +19034,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 316.23 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59b38811-c3b2-47fe-9be2-395fca5ddf82")
+		(property "Reference" "W1"
+			(at 316.23 54.9105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "W1"
+			(at 316.23 57.3348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill0.7mm"
+			(at 316.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 316.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-polar test point"
+			(at 316.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dc123ce-26b3-4d4e-aac4-474ec0efeb1e")
+		)
+		(pin "2"
+			(uuid "22807a5c-40fd-4bb3-b240-f400d8c4b946")
+		)
+		(instances
+			(project ""
+				(path "/bbd6417a-5f3d-4c8e-910d-4ce325bd4790/00000000-0000-0000-0000-000063239fae"
+					(reference "W1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "robotron_ec1834:DL074")
 		(at 82.55 124.46 0)
 		(unit 3)
@@ -19973,6 +20256,74 @@
 			(project "EC1834-FDC"
 				(path "/bbd6417a-5f3d-4c8e-910d-4ce325bd4790/00000000-0000-0000-0000-000063239fae"
 					(reference "K8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 316.23 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e043bd6-c2ba-413c-9970-07dcb79b4bb9")
+		(property "Reference" "W2"
+			(at 316.23 62.5305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "W1"
+			(at 316.23 64.9548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill0.7mm"
+			(at 316.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 316.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-polar test point"
+			(at 316.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af10a20b-8218-4131-9140-c2e3044423f4")
+		)
+		(pin "2"
+			(uuid "4bff99dc-76b6-42b5-a4d0-9b2901ada804")
+		)
+		(instances
+			(project "EC1834-FDC"
+				(path "/bbd6417a-5f3d-4c8e-910d-4ce325bd4790/00000000-0000-0000-0000-000063239fae"
+					(reference "W2")
 					(unit 1)
 				)
 			)
